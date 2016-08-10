@@ -8,7 +8,7 @@
 #include<process.h>
 #include<string.h>
 #include<iomanip.h>
-
+#include<iostream.h>
 //***************************************************************
 //                   CLASS USED IN PROJECT
 //****************************************************************
@@ -479,7 +479,7 @@ void book_deposit()
     int found=0,flag=0,day,fine;
     clrscr();
     cout<<"\n\nBOOK DEPOSIT ...";
-    cout<<"\n\n\tEnter The student’s admission no.";
+    cout<<"\n\n\tEnter The studentÂ’s admission no.";
     cin>>sn;
     fp.open("student.dat",ios::in|ios::out);
     fp1.open("book.dat",ios::in|ios::out);
